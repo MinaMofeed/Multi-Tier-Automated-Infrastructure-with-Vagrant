@@ -35,7 +35,7 @@ Before you begin, ensure you have the following installed:
 
 # Installation & Deployment
 1- Clone the repository:
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/MinaMofeed/Multi-Tier-Automated-Infrastructure-with-Vagrant.git
    cd your-repo-name
 2- Spin up the environment:
 This command will download the boxes and trigger the shell scripts automatically:
