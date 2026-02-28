@@ -49,13 +49,20 @@ You can SSH into any machine to check the service status:
 
 
 # Project Structure
-├── Vagrantfile            # Infrastructure definition (VM specs, Networking)
+├── Vagrantfile # Infrastructure definition (VM specs, Networking)
+
 ├── scripts/               # Automated provisioning logic
+
 │   ├── db01.sh            # MariaDB setup and schema migration
+
 │   ├── mc01.sh            # Caching layer configuration
+
 │   ├── rmq01.sh           # Message broker setup
+
 │   ├── app01.sh           # Java environment and App deployment
+
 │   └── web01.sh           # Reverse proxy and LB configuration
+
 └── README.md
 
 
