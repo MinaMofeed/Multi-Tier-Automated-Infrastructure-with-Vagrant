@@ -37,9 +37,11 @@ Before you begin, ensure you have the following installed:
 1- Clone the repository:
    git clone https://github.com/MinaMofeed/Multi-Tier-Automated-Infrastructure-with-Vagrant.git
    cd your-repo-name
+   
 2- Spin up the environment:
 This command will download the boxes and trigger the shell scripts automatically:
   vagrant up
+  
 3- Verify the setup:
 You can SSH into any machine to check the service status:
   vagrant ssh web01
