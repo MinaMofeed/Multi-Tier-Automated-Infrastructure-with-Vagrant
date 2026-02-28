@@ -9,7 +9,7 @@ echo "Installing packeges"
 yum install expect git mariadb-server -y
 
 # Start and enable mariadb
-ehco "Start and enable mariadb"
+echo "Start and enable mariadb"
 systemctl start mariadb
 systemctl enable mariadb
 
