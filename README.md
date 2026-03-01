@@ -6,7 +6,7 @@ This project demonstrates the automated deployment of a multi-tier web applicati
 The infrastructure is designed to separate concerns across five distinct nodes, ensuring scalability and isolation. All nodes run on CentOS Stream 9, with the exception of the Web Server which utilizes Ubuntu 22.04 (Jammy).
 
 | Hostname |    | Service |                     | OS |            | IP Address |          | RAM |
-|..........|    |.........|                     |....|            |............|          |.....|
+|----------|    |---------|                     |----|            |------------|          |-----|
 | web01 |       | Nginx (Load Balancer) |       | Ubuntu22.04 |   | 192.168.56.11 |       | 1024 MB |
 | app01 |       | Tomcat (App Server) |         | CentOS 9 |      | 192.168.56.12 |       | 2048 MB |
 | rmq01 |       | RabbitMQ (Broker) |           | CentOS 9 |      | 192.168.56.13 |       | 1024 MB |
