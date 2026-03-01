@@ -56,12 +56,12 @@ echo "Restarting mariadb"
 systemctl restart mariadb
 
 # Starting the firewall and allowing the mariadb to access from port no. 3306
-# systemctl start firewalld
-# systemctl enable firewalld
-# firewall-cmd --get-active-zones
-# firewall-cmd --zone=public --add-port=3306/tcp --permanent
-# firewall-cmd --reload
-# systemctl restart mariadb
+systemctl start firewalld
+systemctl enable firewalld
+firewall-cmd --get-active-zones
+firewall-cmd --zone=public --add-port=3306/tcp --permanent
+firewall-cmd --reload
+systemctl restart mariadb
 
 echo "db01 machine was done"
 
